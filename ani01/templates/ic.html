@@ -1,0 +1,66 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta charset="utf-8">
+                <title>Integrated Circuits</title>
+                <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+     <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header">Analog Integrated Circuits</div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/aiv.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text">Analog integrated circuit design is used for designing operational amplifiers, linear regulators, oscillators, active filters, and phase locked loops. The semiconductor parameters such as power dissipation, gain, and resistance are more concerned in the designing of analog integrated circuit.
+         1. Linear Integrated Circuits-
+
+         In an analog integrated circuit, if a linear relation among its voltage as well as current exists then it is known as linear IC. The best example of this linear IC is.741 IC, is an 8-pin DIP (Dual In-line Package) op-amp,
+
+         2. Radio Frequency Integrated Circuits-
+
+         In analog IC, if a non-linear relation among its voltage and current exists then it is called radiofrequency ICs. This kind of IC is also known as a radio frequency integrated circuit.  </p> 
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header">Mixed Integrated Circuits</div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/minc.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text">The integrated circuits that are obtained by the combination of analog and digital ICs on a single chip are called Mixed ICs. These ICs functions as Digital to Analog converters, Analog to Digital converters (D/A and A/D converters), and clock/timing ICs. The circuit depicted in the above figure is an example of the mixed integrated circuit which is a photograph of the 8 to 18 GHz self-healing radar receiver.
+           Mixed signal devices are available as standard parts, but custom designed application-specific integrated circuits (ASICs) are designed for new applications or if new standards are emerging or new energy source(s) are implemented in the system and the production volumes are estimated to be high. Availability of ready and tested analog and mixed signal IP blocks from foundries or dedicated design houses have lowered the gap to realize mixed signal ASICs. There also exists few mixed signal FPGAs and microcontrollers, which typically may include analog-to-digital and digital-to-analog converter(s),operational amplifiers, even wireless connectivity blocks etc. on the same chip with digital logic.</p> 
+        </div> 
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header">Logic Circuits</div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/logic.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text">Logic gates are primarily implemented using diodes or transistors acting as electronic switches, but can also be constructed using vacuum tubes, electromagnetic relays (relay logic), fluidic logic, pneumatic logic, optics, molecules, or even mechanical elements. With amplification, logic gates can be cascaded in the same way that Boolean functions can be composed, allowing the construction of a physical model of all of Boolean logic, and therefore, all of the algorithms and mathematics that can be described with Boolean logic.
+            Logic circuits include such devices as multiplexers, registers, arithmetic logic units (ALUs), and computer memory, all the way up through complete microprocessors, which may contain more than 100 million gates. In modern practice, most gates are made from MOSFETs (metal–oxide–semiconductor field-effect transistors).</p> 
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header">Audio Amplifiers</div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text">The audio amplifiers are one of the many types of ICs, which are used for the amplification of the audio. These are generally used in audio speakers, television circuits, and so on. The above circuit shows the low- voltage audio amplifier IC.</p> 
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header"></div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text"></p> 
+        </div>
+      </div>
+</body>
+</html>

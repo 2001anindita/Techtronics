@@ -1,0 +1,181 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta charset="utf-8">
+                <title>Branches</title>
+                <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <!-- <h1>List of Interests </h1>
+    <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+                <div id="box2"><div id="editor" placeholder="This is some sample content."></div>
+                <script>
+                        ClassicEditor
+                                .create( document.querySelector( '#editor' ) )
+                                .then( editor => {
+                                        console.log( editor );
+                                } )
+                                .catch( error => {
+                                        console.error( error );
+                                } );
+                </script>
+                <a href="#!" class="btn btn-primary">POST</a></div>
+             -->
+                <!-- <div class="card" style="width: 18rem;">
+                    <img src={% static 'images/follow.jpg' %} class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Search for more people with the same as your subject of interest</p>
+                      <a href="#" class="btn btn-primary">FOLLOW MORE PEOPLE...</a>
+                    </div>
+                  </div> -->
+                  <div class="container">
+                    <div class="row">
+                        <div class="card-group">
+                         <div class="col">
+                         <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                         <div class="card-body">
+                          <img src={% static 'images/dig.jpg' %} style="width: 300px; height:220px">
+                          <h5 class="card-title">Digital Electronics</h5>
+                          <p class="card-text"></p>
+                          <a href="dig" class="btn btn-primary">Enter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/ana.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title">Analog Electronics</h5>
+                     <p class="card-text"></p>
+                     <a href="ana" class="btn btn-primary">Enter</a>
+                     {% comment %} <a href="topic/{{data.id}}"> {% endcomment %}
+                   </div>
+               </div>
+              </div>
+               <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/mic.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title">Microelectronics</h5>
+                     <p class="card-text"></p>
+                     <a href="micro" class="btn btn-primary">Enter</a>
+                   </div>
+               </div>
+              </div>
+               {% comment %} <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/cir.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title">Circuit Design</h5>
+                     <p class="card-text"></p>
+                     <a href="cir" class="btn btn-primary">Enter</a>
+                   </div>
+               </div>
+              </div> {% endcomment %}
+               <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/int.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title">Integrated circuits</h5>
+                     <p class="card-text"></p>
+                     <a href="ic" class="btn btn-primary">Enter</a>
+                   </div>
+               </div>
+              </div>
+               <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/pow.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title">Power Electronics</h5>
+                     <p class="card-text"></p>
+                     <a href="pow" class="btn btn-primary">Enter</a>
+                   </div>
+               </div>
+              </div>
+               <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/opto.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title">Optoelectronics</h5>
+                     <p class="card-text"></p>
+                     <a href="opto" class="btn btn-primary">Enter</a>
+                   </div>
+               </div>
+              </div>
+               <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/semi.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title">Semiconductor devices</h5>
+                     <p class="card-text"></p>
+                     <a href="semi" class="btn btn-primary">Enter</a>
+                   </div>
+               </div>
+              </div>
+               <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/emb.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title">Embedded Systems</h5>
+                     <p class="card-text"></p>
+                     <a href="emb" class="btn btn-primary">Enter</a>
+                   </div>
+               </div>
+              </div>
+               {% comment %} <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/aud.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title"></h5>
+                     <p class="card-text"></p>
+                     <a href="" class="btn btn-primary">Enter</a>
+                   </div>
+               </div>
+              </div> {% endcomment %}
+              <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/tele.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title">Wireless Communications</h5>
+                     <p class="card-text"></p>
+                     <a href="wire" class="btn btn-primary">Enter</a>
+                   </div>
+               </div>
+              </div>
+              <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/nano.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title">Nanoelectronics</h5>
+                     <p class="card-text"></p>
+                     <a href="nano" class="btn btn-primary">Enter</a>
+                   </div>
+               </div>
+              </div>
+              {% comment %} <div class="col">
+                    <div class="card" style="width: 21rem; margin: 15px 15px 15px 15px ;">
+                    <div class="card-body">
+                     <img src={% static 'images/bio.jpg' %} style="width: 300px; height:220px">
+                     <h5 class="card-title">Bioelectronics</h5>
+                     <p class="card-text"></p>
+                     <a href="" class="btn btn-primary">Enter</a>
+                   </div>
+               </div>
+              </div> {% endcomment %}
+              
+
+</body>
+</html>
+ 

@@ -1,0 +1,50 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta charset="utf-8">
+                <title>Power Electronics</title>
+                <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+     <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header">Power Diode</div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/pod.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text">Power diodes are similar to classical semiconductor diodes. The only difference is that they can carry significantly bigger currents. To refresh the knowledge about the semiconductor diodes, they can perform under two regimes – forward-biased and reversed-biased. If the potential to the anode is higher than the cathode potential, then the diode works in the forward-biased regime. In the reversed-biased regime, the current flowing through the forward-biased diode is called forward current. Current through the reversed-biased diode does not flow.</p> 
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header">Thyristor</div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/thy.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text">A thyristor are similar to semiconductor diodes, but have an additional gate that is responsible for turning on the conduction at the thyristor – when the small current is injected into the thyristor and the anode voltage is greater than the cathode voltage. The conduction stops when thyristor is reversed-biased.
+            The voltage and current ratings for a thyristor are 3,500A and 6,000V. The most important parameter for a thyristor is switching-off time – time that is needed for a device to zero the current after it is reverse biased. The fastest turn off ratings can be achieved only for thyristors with small ratings.</p> 
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header"></div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text"></p> 
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header"></div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text"></p> 
+        </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta charset="utf-8">
+                <title>Embedded Systems</title>
+                <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+     <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header">Real-Time Embedded Systems</div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/embb.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text">A Real-Time Embedded System is strictly time specific which means these embedded systems provides output in a particular/defined time interval. These type of embedded systems provide quick response in critical situations which gives most priority to time based task performance and generation of output.
+           Further this Real-Time Embedded System is divided into two types i.e.
+            1.Soft Real Time Embedded Systems –
+            In these types of embedded systems time/deadline is not so strictly followed. If deadline of the task is passed (means the system didn’t give result in the defined time) still result or output is accepted.
+            2.Hard Real-Time Embedded Systems –
+            In these types of embedded systems time/deadline of task is strictly followed. Task must be completed in between time frame (defined time interval) otherwise result/output may not be accepted.</p> 
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header">Stand Alone Embedded Systems</div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/embbb.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text">Stand Alone Embedded Systems are independent systems which can work by themselves they don’t depend on a host system. It takes input in digital or analog form and provides the output.
+            Examples :
+
+            MP3 players
+            Microwave ovens
+            calculator</p> 
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header">Networked Embedded Systems</div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/emb3.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text">Networked Embedded Systems are connected to a network which may be wired or wireless to provide output to the attached device. They communicate with embedded web server through network.
+            Examples :
+
+            Home security systems
+            ATM machine
+            Card swipe machine</p> 
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header">Mobile Embedded Systems</div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/embed.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text">Mobile embedded systems are small and easy to use and requires less resources. They are the most preferred embedded systems. In portability point of view mobile embedded systems are also best.
+           Examples :
+
+        MP3 player
+        Mobile phones
+        Digital Camera</p> 
+        </div>
+      </div>
+      <div class="card border-primary mb-3" style="max-width: 70rem; padding:30px; margin:70px;">
+       <div class="card-header"></div>
+        <div class="card-body text-primary">
+         <img src={% static 'images/.jpg' %} style="width: 300px; height:200px">
+          <h5 class="card-title"></h5>
+           <p class="card-text"></p> 
+        </div>
+      </div>
+</body>
+</html>
